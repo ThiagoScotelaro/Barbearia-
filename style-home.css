@@ -1,0 +1,105 @@
+Body {
+	background: url(bg.jpg);
+}
+
+
+.titulo-principal{
+	background: orange;
+	position:absolute;
+	top: 100px;
+	left: 170px;
+	padding: 20px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 30px;
+	width: 100%;
+}
+
+
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: -127px;
+	right: -100px;
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight:bold ;
+	font-size: 22px ;
+	text-decoration: none;
+}
+nav a:hover{
+	color: blue;
+	text-decoration:underline;
+}
+
+#banner{
+	width: 100%;
+}
+
+.principal{
+	width: 100%;
+	background:orange;
+	padding: 20px;
+	font-weight: bold;
+
+	
+}
+
+.txt1{
+	font-style: italic;
+	margin-left: 10px;
+}
+
+.txt2{
+	font-style: italic;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.benef{
+	width: 100%;
+	background:green;
+	padding: 40px;
+	text-align: center;
+}
+
+.tit-ben{
+	text-align: center;
+	font-size: 50px;
+	font-style: italic;
+	text-decoration: none;
+	margin-top: -40px;
+	
+}
+.ulli{
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 30px;
+	
+}
+
+.itens{
+	font-style: italic;
+	text-align: center;
+	font-size: 25px;
+	margin-top:10px;
+
+}
+
+footer{
+	color: white;
+	background: url(bg.jpg);
+	text-align: center;
+}
